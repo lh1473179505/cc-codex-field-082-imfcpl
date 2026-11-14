@@ -1,0 +1,97 @@
+{
+  "assets": {
+    "urn:uuid:44444444-4444-4444-8444-444444444444": {
+      "kind": "video",
+      "edit_rate": [
+        24000,
+        1001
+      ],
+      "intrinsic_duration": 912,
+      "essence_type": "application/mxf",
+      "filename": "video_main.mxf"
+    },
+    "urn:uuid:55555555-5555-4555-8555-555555555555": {
+      "kind": "video",
+      "edit_rate": [
+        24000,
+        1001
+      ],
+      "intrinsic_duration": 24,
+      "essence_type": "application/mxf",
+      "filename": "video_ident.mxf"
+    },
+    "urn:uuid:66666666-6666-4666-8666-666666666666": {
+      "kind": "audio",
+      "edit_rate": [
+        48000,
+        1
+      ],
+      "intrinsic_duration": 1921920,
+      "language": "en",
+      "mca_tag": "51",
+      "channels": 6,
+      "essence_type": "application/mxf",
+      "filename": "audio_en_51.mxf"
+    },
+    "urn:uuid:77777777-7777-4777-8777-777777777777": {
+      "kind": "audio",
+      "edit_rate": [
+        48000,
+        1
+      ],
+      "intrinsic_duration": 1921920,
+      "language": "en",
+      "mca_tag": "st",
+      "channels": 2,
+      "essence_type": "application/mxf",
+      "filename": "audio_en_st.mxf"
+    },
+    "urn:uuid:88888888-8888-4888-8888-888888888888": {
+      "kind": "audio",
+      "edit_rate": [
+        48000,
+        1
+      ],
+      "intrinsic_duration": 1921920,
+      "language": "fr",
+      "mca_tag": "51",
+      "channels": 6,
+      "essence_type": "application/mxf",
+      "filename": "audio_fr_51.mxf"
+    },
+    "urn:uuid:99999999-9999-4999-8999-999999999999": {
+      "kind": "subtitle",
+      "edit_rate": [
+        24000,
+        1001
+      ],
+      "intrinsic_duration": 960,
+      "language": "en",
+      "essence_type": "application/mxf",
+      "filename": "subs_en.mxf"
+    },
+    "urn:uuid:aaaaaaa1-aaaa-4aaa-8aaa-aaaaaaaaaaa1": {
+      "kind": "video",
+      "edit_rate": [
+        24,
+        1
+      ],
+      "intrinsic_duration": 1001,
+      "essence_type": "application/mxf",
+      "filename": "bumper_video.mxf"
+    },
+    "urn:uuid:aaaaaaa2-aaaa-4aaa-8aaa-aaaaaaaaaaa2": {
+      "kind": "audio",
+      "edit_rate": [
+        48000,
+        1
+      ],
+      "intrinsic_duration": 2002000,
+      "language": "en",
+      "mca_tag": "51",
+      "channels": 6,
+      "essence_type": "application/mxf",
+      "filename": "bumper_audio.mxf"
+    }
+  }
+}

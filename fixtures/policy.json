@@ -1,0 +1,55 @@
+{
+  "content_title": "Episode 12 Regrade",
+  "content_kind": "episode",
+  "composition_edit_rate": [
+    24000,
+    1001
+  ],
+  "application_identification": "http://www.smpte-ra.org/ns/2067-21/2023",
+  "source_cpl": "CPL_episode.xml",
+  "video_track_id": "urn:uuid:b1111111-b111-4111-8111-b11111111111",
+  "audio_select": {
+    "language": "en",
+    "mca_tag": "51"
+  },
+  "include_subtitle": false,
+  "head_trim_eu": 48,
+  "tail_trim_eu": 24,
+  "bumper": {
+    "video_track_file_id": "urn:uuid:aaaaaaa1-aaaa-4aaa-8aaa-aaaaaaaaaaa1",
+    "audio_track_file_id": "urn:uuid:aaaaaaa2-aaaa-4aaa-8aaa-aaaaaaaaaaa2",
+    "entry_point": 0
+  },
+  "markers": [
+    {
+      "label_kind": "FFOA",
+      "annotation": "first frame of action",
+      "offset_eu": 1000
+    },
+    {
+      "label_kind": "LFOA",
+      "annotation": "last frame of action",
+      "offset_eu": 1887
+    }
+  ],
+  "non_integer_convert": "reject",
+  "gap_mode": "reject",
+  "overlap_mode": "reject",
+  "duration_mismatch": "reject",
+  "issuer": "Mastering Shed",
+  "creator": "imfcpl",
+  "issue_date": "2026-04-02T08:30:00+00:00",
+  "new_cpl_id": "urn:uuid:d1111111-d111-4111-8111-d11111111111",
+  "new_segment_id": "urn:uuid:d2111111-d211-4211-8211-d21111111111",
+  "new_sequence_ids": {
+    "video": "urn:uuid:d3111111-d311-4311-8311-d31111111111",
+    "audio": "urn:uuid:d4111111-d411-4411-8411-d41111111111"
+  },
+  "new_resource_ids": {
+    "bumper_video": "urn:uuid:d5111111-d511-4511-8511-d51111111111",
+    "main_video": "urn:uuid:d6111111-d611-4611-8611-d61111111111",
+    "ident_video": "urn:uuid:d7111111-d711-4711-8711-d71111111111",
+    "bumper_audio": "urn:uuid:d8111111-d811-4811-8811-d81111111111",
+    "main_audio": "urn:uuid:d9111111-d911-4911-8911-d91111111111"
+  }
+}

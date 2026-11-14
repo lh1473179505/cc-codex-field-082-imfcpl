@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompositionPlaylist xmlns="http://www.smpte-ra.org/schemas/2067-3/2016" xmlns:cc="http://www.smpte-ra.org/schemas/2067-2/2016" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>urn:uuid:33333333-3333-4333-8333-333333333333</Id>
+  <Annotation>Episode 12 source composition</Annotation>
+  <IssueDate>2026-03-18T10:00:00+00:00</IssueDate>
+  <Issuer>Mastering Shed</Issuer>
+  <Creator>house-conform</Creator>
+  <ContentTitle>Episode 12</ContentTitle>
+  <ContentKind>episode</ContentKind>
+  <EditRate>24000 1001</EditRate>
+  <ApplicationIdentificationList>
+    <ApplicationIdentification>http://www.smpte-ra.org/ns/2067-21/2023</ApplicationIdentification>
+  </ApplicationIdentificationList>
+  <SegmentList>
+    <Segment>
+      <Id>urn:uuid:c1111111-c111-4111-8111-c11111111111</Id>
+      <SequenceList>
+        <cc:MainImageSequence>
+          <Id>urn:uuid:c2111111-c211-4211-8211-c21111111111</Id>
+          <TrackId>urn:uuid:b1111111-b111-4111-8111-b11111111111</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:e1111111-e111-4111-8111-e11111111111</Id>
+              <Annotation>main picture</Annotation>
+              <EditRate>24000 1001</EditRate>
+              <IntrinsicDuration>912</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>912</SourceDuration>
+              <RepeatCount>1</RepeatCount>
+              <TrackFileId>urn:uuid:44444444-4444-4444-8444-444444444444</TrackFileId>
+            </Resource>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:e2111111-e211-4211-8211-e21111111111</Id>
+              <Annotation>end ident</Annotation>
+              <EditRate>24000 1001</EditRate>
+              <IntrinsicDuration>24</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>24</SourceDuration>
+              <RepeatCount>2</RepeatCount>
+              <TrackFileId>urn:uuid:55555555-5555-4555-8555-555555555555</TrackFileId>
+            </Resource>
+          </ResourceList>
+        </cc:MainImageSequence>
+        <cc:MainAudioSequence>
+          <Id>urn:uuid:c3111111-c311-4311-8311-c31111111111</Id>
+          <TrackId>urn:uuid:b2222222-b222-4222-8222-b22222222222</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:e3111111-e311-4311-8311-e31111111111</Id>
+              <Annotation>English 5.1</Annotation>
+              <EditRate>48000 1</EditRate>
+              <IntrinsicDuration>1921920</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>1921920</SourceDuration>
+              <RepeatCount>1</RepeatCount>
+              <TrackFileId>urn:uuid:66666666-6666-4666-8666-666666666666</TrackFileId>
+            </Resource>
+          </ResourceList>
+        </cc:MainAudioSequence>
+        <cc:MainAudioSequence>
+          <Id>urn:uuid:c4111111-c411-4411-8411-c41111111111</Id>
+          <TrackId>urn:uuid:b3333333-b333-4333-8333-b33333333333</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:e4111111-e411-4411-8411-e41111111111</Id>
+              <Annotation>English stereo</Annotation>
+              <EditRate>48000 1</EditRate>
+              <IntrinsicDuration>1921920</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>1921920</SourceDuration>
+              <RepeatCount>1</RepeatCount>
+              <TrackFileId>urn:uuid:77777777-7777-4777-8777-777777777777</TrackFileId>
+            </Resource>
+          </ResourceList>
+        </cc:MainAudioSequence>
+        <cc:MainAudioSequence>
+          <Id>urn:uuid:c5111111-c511-4511-8511-c51111111111</Id>
+          <TrackId>urn:uuid:b4444444-b444-4444-8444-b44444444444</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:e5111111-e511-4511-8511-e51111111111</Id>
+              <Annotation>French 5.1</Annotation>
+              <EditRate>48000 1</EditRate>
+              <IntrinsicDuration>1921920</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>1921920</SourceDuration>
+              <RepeatCount>1</RepeatCount>
+              <TrackFileId>urn:uuid:88888888-8888-4888-8888-888888888888</TrackFileId>
+            </Resource>
+          </ResourceList>
+        </cc:MainAudioSequence>
+        <cc:MainSubtitleSequence>
+          <Id>urn:uuid:c6111111-c611-4611-8611-c61111111111</Id>
+          <TrackId>urn:uuid:b5555555-b555-4555-8555-b55555555555</TrackId>
+          <ResourceList>
+            <Resource xsi:type="TrackFileResourceType">
+              <Id>urn:uuid:e6111111-e611-4611-8611-e61111111111</Id>
+              <Annotation>English captions</Annotation>
+              <EditRate>24000 1001</EditRate>
+              <IntrinsicDuration>960</IntrinsicDuration>
+              <EntryPoint>0</EntryPoint>
+              <SourceDuration>960</SourceDuration>
+              <RepeatCount>1</RepeatCount>
+              <TrackFileId>urn:uuid:99999999-9999-4999-8999-999999999999</TrackFileId>
+            </Resource>
+          </ResourceList>
+        </cc:MainSubtitleSequence>
+      </SequenceList>
+    </Segment>
+  </SegmentList>
+</CompositionPlaylist>
